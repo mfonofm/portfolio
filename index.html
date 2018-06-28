@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+
+    <!--Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+        crossorigin="anonymous">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="portfolio.css">
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-default navbar-fixed-top" id="navbar">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
+                    aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <!--
+            <a class="navbar-brand" href="#">Mfon Essien</a> -->
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a id="profile-link" href="https://github.com/mfonofm" target="_blank">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a id="profile-link" href="https://www.linkedin.com/in/mfon-essien/" target="_blank">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                    </li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="#projects_section">Projects</a>
+                    </li>
+                    <li>
+                        <a href="#contact_section">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <div class="container" id="welcome-section">
+        <div class="row">
+            <h1>Hi, I'm Mfon Essien. Front End Web Developer.</h1>
+        </div>
+
+        <!-- projects section -->
+        <div class="row">
+            <div class="col-md-4"></div>
+            <div class="col-md-4">
+                <div class="thumbnail">
+                    <img id="profile-pic" src="https://image.ibb.co/j3PM67/profile_pic_square.jpg" alt="profile_pic_square">
+                </div>
+            </div>
+            <div class="col-md-4"></div>
+        </div>
+        <hr>
+        <div class="row" id="projects">
+            <h1 id="projects_section">Projects</h1>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="thumbnail">
+                        <a href="https://www.findyourtrim.co.uk" target="_blank">
+                            <img class="project-tile" src="https://image.ibb.co/jHtCw7/FYT_Multi_Screen.png" alt="Find Your Trim Screenshot">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="thumbnail">
+                        <a href="http://www.micrologixng.com/" target="_blank">
+                            <img class="project-tile" src="https://image.ibb.co/bSzkG7/Micrologix_NG_Multi_Screen.png" alt="Micrologix Screenshot">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="thumbnail">
+                        <a href="http://www.perfectfacilities.co.uk/" target="_blank">
+                            <img class="project-tile" src="https://image.ibb.co/jR9kG7/Perfect_Cleaning_Services_Multi_Screenshot.png" alt="Perfect Cleaning Services Screenshot">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="thumbnail">
+                        <img class="project-tile" src="https://image.ibb.co/e7TO3n/hipperthanhip_multiscreen.png" alt="hipperthanhip_multiscreen">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <hr class="sectionDivider">
+
+        <!-- contact form -->
+        <div class="row">
+            <h1 id="contact_section">Contact</h1>
+            <div class="row">
+                <form>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="nameContact">Name</label>
+                                <input type="text" class="form-control" id="nameContact" placeholder="Name">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="phoneContact">Phone Number</label>
+                                <input type="tel" class="form-control" id="phoneContact" placeholder="Phone Number">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="emailContact">Email</label>
+                        <input type="email" class="form-control" id="emailContact" placeholder="Email">
+                    </div>
+                    <div class="form-group">
+                        <label for="messageContact">Message</label>
+                        <textarea class="form-control" id="messageContact" rows="10" placeholder="Message"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-default" id="submitButton">Send Message</button>
+                </form>
+            </div>
+        </div>
+
+        <!-- footer -->
+        <footer class="footer">
+            <div class="container">
+                <br>
+                <p class="footText">Copyright © 2018 Mfon Essien. All Rights Reserved.</p>
+            </div>
+        </footer>
+</body>
+
+</html>
