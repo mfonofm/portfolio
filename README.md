@@ -1,2 +1,2 @@
 # portfolio
-A collection of some of the websites I've built in 2018
+A collection of some of the commercial projects I've built
